@@ -8,6 +8,6 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path:
-    repoURL:
-    targetRevision:
+    path: helm/nginx
+    repoURL: https://github.com/truongminhquan/argocd-applications.git
+    targetRevision: main
