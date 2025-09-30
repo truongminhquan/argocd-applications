@@ -1,0 +1,21 @@
+# Terraform generated files and directories
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfplan
+.terraformrc
+terraform.rc
+
+# Sensitive files (e.g., variable definitions with secrets)
+*.tfvars
+*.tfvars.json
+
+# Local overrides or specific files
+override.tf
+override.tf.json
+*tfvars.json.example
+*tfvars.example
+
+# Crash logs
+crash.log
